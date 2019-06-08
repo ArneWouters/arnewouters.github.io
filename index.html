@@ -12,7 +12,7 @@
     <title>Arne's Place</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -43,6 +43,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#MasterPassword">MasterPassword</a>
             </li>
           </ul>
         </div>
@@ -122,6 +125,43 @@
         </div>
       </div>
     </section>
+	
+	<section class="bg-primary" id="MasterPassword">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+			<i class="fas fa-8x fa-lock text-white mb-3"></i>
+            <h2 class="section-heading text-white">MasterPassword</h2>
+            <hr class="light my-4">
+			
+			<div class="col-lg-6 mx-auto text-center">
+			    <div id="identity" class="active">
+				    <form action="#">
+    	           	    <div class="form-group">
+        	                <input required type="text" class="form-control" id="mp-username" placeholder="Username" style="text-align:center;">
+            	        </div>
+                	    <div class="form-group">
+                    	    <input required type="password" class="form-control" id="mp-password" placeholder="Password" style="text-align:center;">
+      	                </div>
+						<div id="mp-spinner" class="spinner-border text-light" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+						<br><br>
+					    <button type="submit" class="btn btn-light btn-xl js-scroll-trigger">Submit</button>
+     	            </form>
+			    </div>
+				<div id="site" class="d-none">
+				    <input type="text" class="form-control" id="mp-siteName" placeholder="Site Name (eg. apple.com)" style="text-align:center;"> <br>
+					<input type="number" class="form-control" id="mp-siteCounter" min="1" max="100" value="1" style="text-align:center;"> <br>
+					<h2 id="mp-sitePassword" title="Your password is ..." class="text-white"></h2><br>
+					<button id="mp-logout" type="submit" class="btn btn-light btn-xl js-scroll-trigger">Back</button>
+				</div>
+			</div>
+
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -134,6 +174,10 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+	
+	<!-- MasterPassword -->
+	<script src="js/dependencies.js?4"></script>
+    <script src="js/main.js?3"></script>
 
   </body>
 
