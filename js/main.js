@@ -111,8 +111,23 @@ $(function() {
         mpw = null;
         doneWork();
     });
-    $('#mp-sitePassword').on('click', function() {
-        selectText(this);
+	$('#mp-showPassword').on('click', function() {
+		$('#mp-sitePassword').removeClass('d-none');
+		$('#mp-hidePassword').removeClass('d-none');
+		$('#mp-showPassword').addClass('d-none');
+    });
+	$('#mp-hidePassword').on('click', function() {
+		$('#mp-showPassword').removeClass('d-none');
+		$('#mp-sitePassword').addClass('d-none');
+		$('#mp-hidePassword').addClass('d-none');
+    });
+    $('#mp-copyPassword').on('click', function() {
+		const el = document.createElement('textarea');
+		el.value = $('#mp-sitePassword').text();
+		document.body.appendChild(el);
+		el.select();
+		document.execCommand('copy');
+		document.body.removeChild(el);
     });
 
     doneWork();
