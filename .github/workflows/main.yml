@@ -9,6 +9,6 @@ jobs:
       - id: Build-Vue
         uses: xRealNeon/VuePagesAction@1.0.0
         with:
-        username: 'ArneWouters'
-        reponame: 'arnewouters.github.io'
-        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+          username: 'ArneWouters'
+          reponame: 'arnewouters.github.io'
+          token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
