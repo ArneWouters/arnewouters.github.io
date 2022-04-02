@@ -2,15 +2,15 @@
 
 I am a software engineer and student from Belgium.
 I created this lightweight website mainly for myself
-to write down my thoughts and improve my writing skills.
+to share my thoughts and improve my writing skills.
 
 ---
 
 # Now
 
-Here's what I a currently spend my time on:
-- a
-- b
+Here's what I currently spend my time on
+- Finishing the final year of my master in computer science at KU Leuven
+- Working on my GSoC application
 
-*This section was inspired by Derek Sivers’ [/now page movement](https://nownownow.com/about).*
+*This section was inspired by Derek Sivers’ [now page](https://nownownow.com/about).*
 
