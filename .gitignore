@@ -2,6 +2,7 @@
 node_modules
 /dist
 .hugo_build.lock
+/public
 
 
 # local env files

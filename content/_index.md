@@ -1,16 +1,17 @@
-# Hi, my name is Arne Wouters.
+# Hey there!
 
-I am a software engineer and student from Belgium.
-I created this lightweight website mainly for myself
-to share my thoughts and improve my writing skills.
+I'm Arne, a software engineer from Belgium, now living and working in the vibrant city of
+Amsterdam. Currently, I’m part of an amazing team at AWS, where I contribute to Amazon Q,
+an exciting project leveraging AI. This website is my little corner of the internet —
+a place where I share my thoughts, document my journey, and reflect on the things I’m learning.
 
 ---
 
 # Now
 
 Here's what I currently spend my time on
-- Finishing the last two courses of my master in computer science at KU Leuven
-- Finding my first job as a SWE
+- Trying to finish [*"A Philosophy of Software Design"*](https://books.google.nl/books/about/A_Philosophy_of_Software_Design.html?id=hkfEzgEACAAJ) by John Ousterhout
+- Playing with [Hyprland](https://hyprland.org/) on my linux desktop
 
 *This section was inspired by Derek Sivers’ [now page](https://nownownow.com/about).*
 
