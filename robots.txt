@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: https://wouters.co/sitemap.xml
+Sitemap: https://awouters.dev/sitemap.xml
