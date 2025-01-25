@@ -1,6 +1,6 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
-baseURL = "https://wouters.co"
+baseURL = "https://awouters.dev"
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
@@ -8,7 +8,7 @@ theme = 'hugo-bearblog'
 # Basic metadata configuration for your blog.
 title = "Arne's Place"
 author = "Arne Wouters"
-copyright = "Copyright © 2022, Arne Wouters."
+copyright = "Copyright © 2025, Arne Wouters."
 languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
